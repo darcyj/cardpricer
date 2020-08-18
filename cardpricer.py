@@ -73,7 +73,7 @@ def get_cheapest(cardname):
 # check that file exists
 print('Reading in your data...')
 if os.path.exists(os.path.expanduser(args.input)):
-  csvdata = pd.read_csv('~/Desktop/neph_budget.csv')
+  csvdata = pd.read_csv(args.input)
 else:
   sys.exit("Error: input file not found. Try full path?")
 
