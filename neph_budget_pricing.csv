@@ -1,0 +1,90 @@
+cardname,quant,have,type,cost,category,cardname,price,set
+hallowed fountain,1,T,land,,,hallowed fountain,7.41,rtr
+stomping ground,1,T,land,,,stomping ground,7.35,gtc
+hinterland harbor,1,T,land,,,hinterland harbor,6.4,dom
+glacial fortress,1,T,land,,,glacial fortress,5.08,m13
+sunpetal grove,1,T,land,,,sunpetal grove,3.91,xln
+sulfur falls,1,T,land,,,sulfur falls,3.69,dom
+rootbound crag,1,T,land,,,rootbound crag,3.41,m13
+secure the wastes,1,T,instant,XW,tokens,secure the wastes,3.19,dtk
+"kykar, wind’s fury",1,T,creature,1URW,"tokens, spellslinger","kykar, wind’s fury",2.72,m20
+swiftfoot boots,1,T,artifact,2G,protection,swiftfoot boots,2.56,c13
+Path to Exile,1,T,instant,W,"removal, ramp",Path to Exile,2.35,2xm
+hunted phantasm,1,T,creature,1UU,tokens,hunted phantasm,2.33,rav
+swords to plowshares,1,T,instant,W,"removal, lifegain",swords to plowshares,2.05,brb
+dowsing dagger,1,T,artifact,2,"tokens, ramp",dowsing dagger,1.93,xln
+kodama’s reach,1,T,sorcery,2G,ramp,kodama’s reach,1.86,c20
+dreadhorde arcanist,1,T,creature,1R,spellslinger,dreadhorde arcanist,1.84,war
+mirrorwing dragon,1,T,creature,3RR,spellslinger,mirrorwing dragon,1.81,emn
+aura mutation,1,T,instant,WG,"removal, tokens",aura mutation,1.78,c16
+seaside citadel,1,T,land,,,seaside citadel,1.5,c18
+Crimson Wisps,1,T,instant,R,draw,Crimson Wisps,1.18,shm
+Ink-Treader Nephilim,1,T,creature,WURG,general,Ink-Treader Nephilim,1.11,gpt
+farseek,1,T,sorcery,1G,ramp,farseek,1.06,m13
+"feather, the redeemed",1,T,creature,RWW,spellslinger,"feather, the redeemed",1.01,war
+vines of vastwood,1,T,instant,GG,"protection, pump",vines of vastwood,0.88,zen
+hunted troll,1,T,creature,2GG,tokens,hunted troll,0.79,rav
+Sakura-tribe elder,1,T,creature,1G,ramp,Sakura-tribe elder,0.77,c20
+from beyond,1,F,enchantment,3G,tokens,from beyond,0.75,bfz
+Simic Charm,1,T,instant,GU,"protection, pump",Simic Charm,0.68,gtc
+"krenko, tin street kingpin",1,T,creature,2R,tokens,"krenko, tin street kingpin",0.67,war
+rattleclaw mystic,1,T,creature,1G,ramp,rattleclaw mystic,0.59,ktk
+cultivate,1,T,sorcery,2G,ramp,cultivate,0.52,m21
+blossoming defense,1,F,instant,G,"protection, pump",blossoming defense,0.44,kld
+Young Pyromancer,1,T,creature,1R,tokens,Young Pyromancer,0.43,jmp
+bant charm,1,T,instant,GWU,"removal, protection",bant charm,0.43,c18
+rampant growth,1,T,sorcery,1G,ramp,rampant growth,0.42,10e
+artifact mutation,1,T,instant,RG,"removal, tokens",artifact mutation,0.4,c20
+nivmagus elemental,1,T,creature,R,spellslinger,nivmagus elemental,0.38,rtr
+goblin assault,1,T,enchantment,2R,tokens,goblin assault,0.36,mb1
+hunted dragon,1,T,creature,3RR,tokens,hunted dragon,0.35,c15
+Niveous Wisps,1,T,instant,W,draw,Niveous Wisps,0.34,shm
+"zada, hedron grinder",1,T,creature,3R,spellslinger,"zada, hedron grinder",0.31,a25
+Ajani’s Presence,1,T,instant,W,"protection, pump",Ajani’s Presence,0.3,jou
+Kari Zev’s Expertise,1,T,sorcery,1RR,theft,Kari Zev’s Expertise,0.3,aer
+harrow,1,T,instant,2G,ramp,harrow,0.27,inv
+jungle shrine,1,T,land,,,jungle shrine,0.26,e02
+terramorphic expanse,1,T,land,,,terramorphic expanse,0.25,c16
+"Talrand, sky summoner",1,T,creature,2UU,tokens,"Talrand, sky summoner",0.24,mb1
+enter the unknown,1,T,sorcery,G,ramp,enter the unknown,0.24,rix
+druid of the anima,1,T,creature,1G,ramp,druid of the anima,0.23,ala
+Spawning Breath,1,T,instant,1R,tokens,Spawning Breath,0.23,roe
+frontier bivouac,1,T,land,,,frontier bivouac,0.23,ktk
+mystic monastery,1,T,land,,,mystic monastery,0.23,c19
+avacyn’s pilgrim,1,T,creature,G,ramp,avacyn’s pilgrim,0.22,isd
+Assure // assemble,1,T,instant,GW,"protection, pump, tokens",Assure // assemble,0.21,grn
+rith’s charm,1,T,instant,RGW,tokens,rith’s charm,0.21,pls
+Catch // release,1,F,sorcery,1UR,"theft, removal",Catch // release,0.21,dgm
+renegade tactics,1,T,sorcery,R,draw,renegade tactics,0.2,kld
+into the roil,1,T,instant,1U,"removal, draw, protection",into the roil,0.19,c14
+become immense,1,T,instant,G,pump,become immense,0.18,mb1
+transguild promenade,1,T,land,,,transguild promenade,0.18,c16
+survivors’ encampment,1,F,land,,,survivors’ encampment,0.17,hou
+Expedite,1,T,instant,R,draw,Expedite,0.16,ogw
+blink of an eye,1,T,instant,1U,"removal, draw, protection",blink of an eye,0.15,dom
+valorous stance,1,T,instant,1W,"removal, protection",valorous stance,0.15,2xm
+slip through space,1,T,instant,U,"draw, pump",slip through space,0.14,ogw
+holdout settlement,1,F,land,,,holdout settlement,0.14,ogw
+Viridescent Wisps,1,T,instant,G,"draw, pump",Viridescent Wisps,0.13,shm
+rupture spire,1,T,land,,,rupture spire,0.13,c20
+sigil blessing,1,T,instant,GW,pump,sigil blessing,0.12,ala
+Depose // deploy,1,T,instant,UW,"draw, tokens",Depose // deploy,0.1,rna
+Fists of Flame,1,T,instant,R,"draw, pump",Fists of Flame,0.1,mh1
+otherworldly outburst,1,T,instant,R,"protection, tokens, pump",otherworldly outburst,0.1,emn
+swell of growth,1,F,instant,1G,"draw, ramp",swell of growth,0.1,bfz
+forest,5,T,land,,,forest,0.09,iko
+raise the alarm,1,T,instant,1W,tokens,raise the alarm,0.08,m20
+ranger’s guile,1,T,instant,G,"protection, pump",ranger’s guile,0.08,m21
+island,4,T,land,,,island,0.08,c19
+forbidden friendship,1,F,sorcery,1R,tokens,forbidden friendship,0.08,iko
+mountain,3,T,land,,,mountain,0.07,c19
+plains,3,T,land,,,plains,0.07,eld
+evolving wilds,1,T,land,,,evolving wilds,0.06,c16
+Defiant Strike,1,T,instant,W,"draw, pump",Defiant Strike,0.05,m21
+blossoming sands,1,T,land,,,blossoming sands,0.05,m20
+swiftwater cliffs,1,T,land,,,swiftwater cliffs,0.05,iko
+phalanx tactics,1,T,instant,1W,pump,phalanx tactics,0.04,thb
+pressure point,1,T,instant,1W,draw,pressure point,0.04,kld
+rugged highlands,1,T,land,,,rugged highlands,0.04,m20
+thornwood falls,1,T,land,,,thornwood falls,0.04,m20
+tranquil cove,1,T,land,,,tranquil cove,0.03,m20
