@@ -30,7 +30,7 @@ git clone https://github.com/darcyj/cardpricer ~/Downloads/cardpricer
 ## How to run the program to get prices
 
 1. First, you need to have a csv file where the first column contains names of magic cards. The csv file will have a header (column names). Card names that include commas (i.e. "zada, hedron grinder") need to be wrapped in "", but your spreadsheet program should do this by default. LibreOffice Calc sure does. card names need to be exact matches to scryfall card names, but are NOT
-case-sensitive. For split cards, use two slashes and spaces: "rise // fall". no "1x naturalize" or any of that crap allowed. It's not the end of the world if you have some misspellings, because you'll just get a nan value for price and an "err" set code for those cards. See the included example file `neph_budget.csv` for reference.
+case-sensitive. For split cards, use two slashes and spaces: "rise // fall". no "1x naturalize" or any of that crap allowed. It's not the end of the world if you have some misspellings, because you'll just get a nan value for price and an "err" set code for those cards. See the included example file `neph_budget.csv` for reference. Remember, only the first column matters. The other columns will be carried through to your output, though.
 
 2. activate your scrython conda environment with `conda activate scrython`
 
