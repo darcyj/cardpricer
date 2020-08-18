@@ -6,7 +6,7 @@ cardpricer.py takes a csv full of magic cards, and finds the *printing* of each 
 
 ## Installation instructions (linux, and maybe mac?)
 
-1. make sure you have a `conda` installed. you could skip this step and just install all the requirements using `pip`, but that would be messy. I prefer miniconda. https://docs.conda.io/projects/conda/en/latest/user-guide/install/. I'm not 100% sure about this but I think you need to add channels `defaults` and `conda-forge`. Do that with `conda config --add channels defaults conda-forge`.
+1. make sure you have `conda` installed. skip this if you already have conda. you could also skip this step and just install all the requirements using `pip`, but that would be messy. I prefer miniconda. https://docs.conda.io/projects/conda/en/latest/user-guide/install/. I'm not 100% sure about this but I think you need to add channels `defaults` and `conda-forge`. Do that with `conda config --add channels defaults conda-forge`.
 
 2. use conda to make an environment for scrython, which is a python library that allows us to use scryfall.com's api. 
 ```
@@ -19,25 +19,18 @@ pip install pandas
 conda deactivate scrython
 ```
 
-3. download this git repository somewhere convenient. maybe downloads?
+3. download this git repository somewhere convenient. maybe downloads? If you don't have `git`installed, either install it, or just download the repo manually (i don't even know how lol don't ask me)
 ```
 git clone https://github.com/darcyj/cardpricer ~/Downloads/cardpricer
 ```
 
 ## Installation instructions (windows)
-1. I have no fucking idea, go figure it out for yourself lol i don't use wendy's. The conda folks have windows installation instructions so you could do that? and then follow the same steps to make the conda environment? Let me know if you get it working and I'll add it to this readme.
+1. I have no fucking idea, go figure it out for yourself lol i don't use wendys. The conda folks have windows installation instructions so maybe you could do that? and then follow the same steps to make the conda environment? Let me know if you get it working and I'll add it to this readme.
 
 ## How to run the program to get prices
 
-1. First, you need to have a csv file where the first column contains names
-of magic cards. The csv file will have a header. Card names that include
-commas (i.e. "zada, hedron grinder") need to be wrapped in "", but your 
-spreadsheet program should do this by default. LibreOffice Calc sure does. 
-card names need to be exact matches to scryfall card names, but are NOT
-case-sensitive. For split cards, use two slashes and spaces: "rise // fall".
-It's not the end of the world if you have some misspellings, because you'll
-just get a nan value for price and an "err" set code for those cards. See 
-the included example file `neph_budget.csv` for reference.
+1. First, you need to have a csv file where the first column contains names of magic cards. The csv file will have a header (column names). Card names that include commas (i.e. "zada, hedron grinder") need to be wrapped in "", but your spreadsheet program should do this by default. LibreOffice Calc sure does. card names need to be exact matches to scryfall card names, but are NOT
+case-sensitive. For split cards, use two slashes and spaces: "rise // fall". no "1x naturalize" or any of that crap allowed. It's not the end of the world if you have some misspellings, because you'll just get a nan value for price and an "err" set code for those cards. See the included example file `neph_budget.csv` for reference.
 
 2. activate your scrython conda environment with `conda activate scrython`
 
