@@ -8,7 +8,7 @@ cardpricer.py takes a csv full of magic cards, and finds the *printing* of each 
 
 1. make sure you have `conda` installed. skip this if you already have conda. you could also skip this step and just install all the requirements using `pip`, but that would be messy. I prefer miniconda. https://docs.conda.io/projects/conda/en/latest/user-guide/install/. I'm not 100% sure about this but I think you need to add channels `defaults` and `conda-forge`. Do that with `conda config --add channels defaults conda-forge`.
 
-2. use conda to make an environment for scrython, which is a python library that allows us to use scryfall.com's api. 
+2. use conda to make an environment for scrython (https://github.com/NandaScott/Scrython), which is a python library that allows us to use scryfall.com's api. 
 ```
 conda create --name scrython python=3.5 pip aiohttp
 conda activate scrython
@@ -53,6 +53,13 @@ python3 ~/Downloads/cardpricer/cardpricer.py -i your_file.csv -o prices.csv
 4. look at your output. You can check out the included example output `neph_budget_pricing.csv` to see what it will look like. 
 
 5. deactivate conda environment when you're done with `conda deactivate`. Or just close the shell. Who cares?
+
+## A note about basic lands
+Basic lands have tons of printings, and are basically free. This script WON'T CHECK prices on basic lands out of respect for Scryfall's servers. Instead, you define a set price for basic lands as an option to the script.
+```
+cardpricer.py -i your_file.csv -o prices.csv --basic 0.00
+```
+The above will make all regular basics worth $0 in your price sheet. The default value is a nickel. Their set ID will be xxx so you know it's fake. This doesn't include wastes or snow-covered basics.
 
 ## Planned features that will probably never materialize
 * better error message handling when you mistype the input filepath. currently it's a typical python schmear of BS that nobody wants to see.
