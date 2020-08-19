@@ -55,7 +55,7 @@ python3 ~/Downloads/cardpricer/cardpricer.py -i your_file.csv -o prices.csv
 5. deactivate conda environment when you're done with `conda deactivate`. Or just close the shell. Who cares?
 
 ## Planned features that will probably never materialize
-* better error message handling when you mistype the input filepath. currently it's a typical python schmear of balogna that nobody wants to see.
+* better error message handling when you mistype the input filepath. currently it's a typical python schmear of BS that nobody wants to see.
 * add some annoying ascii art that can't be disabled. shoot me some PRs with suggestions.
 * ideally i'd like this thing to make you feel like you just downloaded a warez version of Quake 3 in 2001 and you're scared you'll break your dad's computer
 * could return the max price and set if people wanted that (but why?)
