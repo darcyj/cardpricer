@@ -39,13 +39,18 @@ else:
 print('Reading in your data...')
 if os.path.exists(os.path.expanduser(args.input)):
   csvdata = pd.read_csv(args.input)
+  csvdata = csvdata[csvdata.iloc[:,0].notna()]
+
 else:
   sys.exit("Error: input file not found. Try full path?")
 
 # build a huge "or" query for all the cards
 # first add quotes and !s
 def format_cname(cn):
-  return('!"'+cn+'"')
+  try:
+    return('!"'+cn+'"')
+  except:
+    return("")
 
 # function to sanitize names (alphanumeric and spaces)
 def sanitize_name(cn):
